@@ -19,3 +19,11 @@ img {
     max-height: 220px;
     width: auto;
 }
+
+h1 {
+    text-align: center;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

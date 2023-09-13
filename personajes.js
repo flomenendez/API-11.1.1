@@ -1,4 +1,7 @@
-const api = 'https://apisimpsons.fly.dev/api/personajes';
+const url = 'https://apisimpsons.fly.dev/api/personajes';
+const limite = 10
+const pagina = 1
+const api = `${url}?limit=${limite}&page=${pagina}`;
 
 // Solicitud fetch
 fetch(api)
